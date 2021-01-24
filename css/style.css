@@ -1,0 +1,355 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: ;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset end */
+*{
+    box-sizing: border-box;
+}
+html,body{
+  background-color:rgb(149, 149, 155);
+  width: 100%;
+}
+#container{
+	background-color: white;
+	margin: 50px 50px 50px 50px;
+	height: auto;
+	border: 1px solid black;
+	min-width: 300px;
+	max-width: 1326;
+}
+/* header css */
+header{
+	height: 23px;
+	margin-bottom: 0px;
+	background-color: white;
+
+}
+/* l------------logo----------- */
+div.logo{
+	font-size: 20px;
+	float: left;
+	display: inline-flex;
+	color: red;
+	line-height: 23px;
+	padding-bottom: 7px;
+	padding:0px;
+	margin-top: 0px;
+	font-size: 12px;
+	
+   
+}
+div.logo h1{
+	padding: 3px;
+	background-image:conic-gradient(from -30deg,red 0deg,red 90deg,blue 90deg,blue 180deg,yellow 180deg,
+	yellow 270deg,green 270deg,green 360deg);
+	margin-right: 5px;
+	font-family: Algerian;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	margin-left: 20px;
+	padding: 0px;
+}
+
+/* -------------------navbar--------------------- */
+
+nav{
+	text-align: center;
+	float: right;
+	line-height: 20px;
+	margin: 2px 10px 10px 0px;
+}
+nav ul{
+	display:flex;
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-left: 0px;
+	padding: 0px;
+}
+nav ul li{
+	width: 80px;
+}
+nav ul li a{
+	color: black;
+	text-decoration:none;
+	width: 140px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	
+}
+nav ul li a:hover{
+	color:white;
+	background: red;
+	padding: 5px 14px 5px 14px;
+}
+
+/*banner section */
+#banner{
+ background-image:linear-gradient(117deg,rgba(0,0,0,.7)55%,rgba(0,0,0,.3)50%),url(../img/0.jpg);
+ background-position: 0% 0%;
+ background-size: 100% 100%;
+ height: 420px;
+ width: 100%;
+ min-width: 300px;
+ max-width: 1326;
+}
+.ar-banner{
+ float: left;
+ margin: 2px 2px 2px 20px;
+ padding: 10px;
+ 
+}
+
+.ar-banner h1{
+	font-size: 90px;
+	text-transform: uppercase;
+	padding-top: 30px;
+	color: white;
+}
+span{
+	color: red;
+	font-size: 80px;
+	min-width: 300px;
+    max-width: 1326;
+}
+.ar-banner p{
+	color: white; 
+	margin-top: 5px;
+
+	
+}
+.banner1-btn{
+	background-color: #fd2b2b;
+	font-size: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	color: white;
+	width: 130px;
+	margin-top: 10px;
+	top: 270px;
+}
+
+ /* ----------feuture--------- */
+.core{
+	margin: 60px 100px auto 100px;
+	text-align: center;
+	padding: 5px;
+}
+ .core h1{
+	 font-weight: bold;
+	 letter-spacing: 2px;
+	 font-size: 25px;
+ }
+ .core h3{
+	color: red;
+ }
+ .core p{
+	 font-size: 13px;
+	 padding-top: 10px;
+ }
+.flex{
+    display: flex;
+}
+.f1 {
+	margin:20px auto 5px 100px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.f1 h2{
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+
+.f1 p{
+	font-size: 13px;
+	padding-top: 10px;
+}
+.h3{
+	font-size: 10px;
+	text-transform: uppercase;
+	border: 1px solid red;
+    padding: 3px;
+	width: 120px;
+	margin-top: 10px;
+}
+img{
+	border: 1px solid red;
+	padding: 10px;
+	border-radius: 50%;
+	margin-block: 10px;
+}
+
+/* --------------------banner2--------------- */
+
+#banner2{
+	background:url(../img/show.jpg),rgba(0,0,0,.6);
+	background-blend-mode: multiply;;
+	background-position: 0% 0%;
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	height: 400px;
+	width: 100%;
+	min-width: 300px;
+	max-width: 1326;
+	position: relative;
+   }
+   .ar-banner2{
+	float: left;
+	margin: 2px 2px 2px 30px;
+	padding: 10px;
+	position: absolute;
+   }
+   
+   .ar-banner2 h1{
+	   font-size: 40px;
+	   text-transform: uppercase;
+	   padding-top: 30px;
+	   color: white;
+	   margin-top: 30px;
+   }
+   .ar-banner2 span{
+	   color: red;
+	   font-size: 50px;
+	   min-width: 300px;
+	   max-width: 1326;
+	   margin-top: 20px;
+   }
+   .ar-banner2 p{
+	   color: white; 
+	   margin-top: 5px;
+   }
+   .banner2-btn{
+	   background-color: #fd2b2b;
+	   font-size: 10px;
+	   padding: 10px;
+	   text-transform: uppercase;
+	   color: white;
+	   width: 130px;
+	   margin-top: 12px;
+   }
+  /* ---------- footer------------ */
+  
+footer{
+	background-color:rgb(34, 33, 33);
+	width: 100%;
+	height: 250px;
+	color: white;
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 10px;
+}
+#foot1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 40px;
+	border-bottom: 1px solid rgb(139, 139, 139);
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-bottom: 20px;
+}
+footer h1{
+	font-size: 30px;
+	padding: 10px;
+}
+p{
+ 	color: rgb(92, 91, 91);
+	font-size: 10px;
+	padding: 10px;
+
+}
+.text{
+    color: rrgb(92, 91, 91);
+	font-size: 10px;
+	padding: 5px;
+}
+
+#foot2{
+	padding: 20px;
+	margin: 0px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 0px;
+}
+.copyright{
+	
+}
+.copyright p{
+    color: rgb(92, 91, 91);
+}
+.trems{
+	margin-top: 1px;
+}
+.trems a{
+	color: rgb(92, 91, 91);
+	text-decoration: none;
+	margin-right:30px ;
+}
+
+/* ---------------icons------------- */
+.fas, .far{
+	font-size: 16px;
+	margin-right: 5px;
+}
+.fab{
+	background: rgb(83, 83, 83);
+	padding: 7px;
+	font-size: 20px;
+	border-radius: 50%;
+	margin-top: -7px;
+	margin-right: 10px;
+
+}
+
+
